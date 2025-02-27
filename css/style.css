@@ -211,7 +211,7 @@ a{
 		width: 247px;
 	}
 
-	.catalog-list-title:hover ~.sub-menu{
+	.catalog-name:hover .sub-menu{
 		display: flex;
 	}
 
@@ -259,7 +259,6 @@ a{
   background-color: #f7e296;
   box-sizing: border-box;
   z-index: 1000;
-    border: 1px solid #000;
 
 
 
@@ -740,90 +739,7 @@ background-position: 0 0;
 
 }
 
-/*
-.range{
-	margin-top: 55px;
-}
 
-
-.range-slider {
-  height: 3px;
-  position: relative;
-  background-color: #e1e9f6;
-  border-radius: 2px;
-}
-.range-selected {
-  height: 100%;
-  left: 0%;
-  right: 20%;
-  position: absolute;
-  border-radius: 5px;
-  background-color:#91c92f;
-  
-}
-
-.range-input {
-  position: relative;
-}
-.range-input input {
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  top: -3px;
-  left: -7px;
-  background: none;
-  pointer-events: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-.range-input input::-webkit-slider-thumb {
-  height: 30px;
-  width: 30px;
-  -webkit-appearance: none;
-  appearance: none;
-  border-radius: 50%;
-  border: 3px solid #1b53c0;
-  background-color: #fff;
-  pointer-events: auto;
-  background-image: url(../img/filter-button.svg);
-  background-repeat: no-repeat;
-  background-position: left;
-
-}
-.range-input input::-moz-range-thumb {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: 3px solid #1b53c0;
-  background-color: #fff;
-  pointer-events: auto;
-  -moz-appearance: none;
-}
-
-.range-price {
- margin-top: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.range-price input {
-  border:none;
-  width: 60px;
-  background: transparent;
-
-}
-.range-price input:first-of-type {
-  margin-right: 15px;
-}*/*/
-
-
-
-/*fieldset{
-	background-color: #efefef;
-}
-*/
 .range-price label, .range-price input{
 	font-family: "Gilroy Light", Arial, sans-serif;
 	font-size: 14px;
